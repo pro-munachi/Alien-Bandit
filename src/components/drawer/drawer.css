@@ -27,6 +27,7 @@
 .nav-links {
   display: flex;
   justify-content: center;
+  margin-right: 10px;
 }
 
 .nav-links ul {
@@ -54,4 +55,26 @@
   font: 17px inter;
   border-bottom: 1px solid #c0262d;
   padding-bottom: 4px;
+}
+
+.close {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close p {
+  margin-right: 14px;
+  font-size: 20px;
+}
+
+@media (max-width: 700px) {
+  .nav-links,
+  .logo {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    margin-top: 15px;
+  }
 }

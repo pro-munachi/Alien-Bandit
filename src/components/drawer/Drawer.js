@@ -36,30 +36,39 @@ export default function AppBar() {
 
   const list = (anchor) => (
     <Box
-      sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 250 }}
+      sx={{
+        width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 250,
+        height: '100vh',
+        bgcolor: 'black',
+        color: '#c0262d',
+      }}
       role='presentation'
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
+      <Box className='close'>
+        <p onClick={toggleDrawer(anchor, false)}>X</p>
+      </Box>
+      <Box sx={{ display: 'flex', justifyContent: 'center', margin: '20px 0' }}>
+        <img src={Logo} alt='logo' height={90} />
+      </Box>
       <List>
-        {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>
+        {[
+          { name: 'Home', link: '/' },
+          { name: 'Buy a bandit', link: '/buy' },
+          { name: 'Provenence', link: '/map' },
+          { name: 'Members', link: '/map' },
+        ].map((text, index) => (
+          <ListItem button key={text.name}>
+            {/* <ListItemIcon>
               {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-            </ListItemIcon>
-            <ListItemText primary={text} />
-          </ListItem>
-        ))}
-      </List>
-
-      <Divider />
-      <List>
-        {['All mail', 'Trash', 'Spam'].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>
-              {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-            </ListItemIcon>
-            <ListItemText primary={text} />
+            </ListItemIcon> */}
+            <NavLink
+              to={text.link}
+              style={{ textDecoration: 'none', color: '#c0262d' }}
+            >
+              <ListItemText primary={text.name} />
+            </NavLink>
           </ListItem>
         ))}
       </List>

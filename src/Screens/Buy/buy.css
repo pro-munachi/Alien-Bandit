@@ -1,0 +1,88 @@
+.buy {
+  background: url('../../assets/images/ALIENSPREAD.png');
+  height: 92vh;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.buy-container {
+  margin: 30px auto;
+  width: 90%;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.buy-container img {
+  width: 300px;
+}
+
+@media (max-width: 1100px) {
+  .buy-container {
+    flex-direction: column;
+  }
+
+  .buy-box1 {
+    width: 100%;
+    /* border: solid 1px white; */
+  }
+  .buy-box2 {
+    width: 100%;
+    border: solid 1px white;
+  }
+}
+
+.buy-box1 {
+  width: 60%;
+  margin: 0;
+}
+.buy-box2 {
+  width: 35%;
+  display: flex;
+  justify-content: end;
+}
+
+.buy-but {
+  width: 90%;
+  padding: 20px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  background-color: #c0262d;
+}
+
+.buy-but h2 {
+  color: black;
+  text-align: center;
+  width: 30%;
+}
+.buy-but p {
+  color: black;
+  width: 30%;
+}
+.buy-but button {
+  color: #c0262d;
+  background-color: black;
+  border: none;
+  width: 30%;
+}
+
+@media (max-width: 889px) {
+  .buy-but {
+    flex-direction: column;
+  }
+
+  .buy-but h2 {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .buy-but p {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .buy-but button {
+    width: 60%;
+    margin: 10px auto;
+    height: 70px;
+  }
+}

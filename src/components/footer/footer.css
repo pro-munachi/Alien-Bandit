@@ -1,0 +1,11 @@
+.footer {
+  background-color: #c0262d;
+  color: black;
+  height: 150px;
+}
+
+.footer-container {
+  width: 90%;
+  display: flex;
+  margin: auto;
+}

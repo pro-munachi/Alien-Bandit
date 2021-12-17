@@ -1,0 +1,39 @@
+.home {
+  background: url('../../assets/images/back.png');
+  height: 92vh;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.buygrid {
+  margin: 10px 10px;
+  border-radius: 10px;
+}
+
+.home-first1 {
+  display: flex;
+}
+
+.home-first {
+  display: flex;
+}
+
+.buygrid {
+  width: 60%;
+}
+
+@media (max-width: 900px) {
+  .home-first1 {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  .home-first {
+    flex-direction: column;
+  }
+  .buygrid {
+    width: 100%;
+  }
+}

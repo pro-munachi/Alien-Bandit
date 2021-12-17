@@ -1,0 +1,57 @@
+.menu {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 80px;
+}
+
+.hamburger {
+  display: none;
+}
+
+.ham {
+  color: #c0262d;
+}
+
+.logo img {
+  height: 80px;
+  width: 80px;
+}
+
+.nav-full {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links ul li {
+  margin: 0 10px;
+}
+
+.nav-links ul li .inactive {
+  text-decoration: none;
+  color: white;
+  font: 17px inter;
+}
+
+.nav-links ul li .inactive:hover {
+  color: #c0262d;
+}
+
+.nav-links ul li .active {
+  text-decoration: none;
+  color: #c0262d;
+  font: 17px inter;
+  border-bottom: 1px solid #c0262d;
+  padding-bottom: 4px;
+}

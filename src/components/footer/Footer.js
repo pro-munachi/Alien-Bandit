@@ -15,10 +15,13 @@ const Footer = () => {
         </div>
         <div className='footer-bottom'>
           <div className='footer-icons'>
-            <a href='/' className='footer-link'>
+            <a
+              href='https://twitter.com/alien_bandits?t=JGmN1nU84m2TYJ8N4cSfaA&s=08'
+              className='footer-link'
+            >
               <TwitterIcon />
             </a>
-            <a href='/' className='footer-link'>
+            <a href='https://t.me/+4ICOg08hzMQwZTdk' className='footer-link'>
               <TelegramIcon />
             </a>
             <a href='/' className='footer-link'>

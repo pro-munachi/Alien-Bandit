@@ -206,5 +206,12 @@ export const HomeStyle = styled.div`
   .archive {
     margin-top: 80px;
     width: 100%;
+    background: black;
+    padding: 20px 0;
+  }
+
+  .map {
+    margin-top: 80px;
+    width: 100%;
   }
 `

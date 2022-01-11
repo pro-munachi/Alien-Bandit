@@ -44,8 +44,8 @@ export const WelcomeStyle = styled.div`
           text-align: center;
         }
         img {
-          width: 70px;
-          height: 70px;
+          width: 50px;
+          height: 50px;
         }
         p {
           width: 70%;

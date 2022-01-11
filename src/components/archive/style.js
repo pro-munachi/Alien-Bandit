@@ -25,8 +25,12 @@ export const ArchiveStyle = styled.div`
       height: 500px;
       width: 500px;
       @media (max-width: 999px) {
-        height: 300px;
-        width: 300px;
+        height: 500px;
+        width: 500px;
+      }
+      @media (max-width: 599px) {
+        height: 100%;
+        width: 100%;
       }
     }
 

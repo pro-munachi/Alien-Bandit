@@ -15,10 +15,13 @@ import bandit6 from '../../assets/images/E (6).png'
 import bandit7 from '../../assets/images/E (7).png'
 import bandit8 from '../../assets/images/E (8).png'
 import { HomeStyle } from './style.js'
+import banditgif from '../../assets/images/aliengif.gif'
 import Footer from '../../components/footer/Footer'
 import NavBar from '../../components/drawer/Drawer'
 import Welcome from '../../components/welcome/Welcome'
 import Archive from '../../components/archive/Archive'
+import Sliders from '../../components/slider/Slider'
+import Map from '../../components/map/Map'
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
@@ -36,17 +39,17 @@ const Home = () => {
       <NavBar />
       <div className='image'>
         <div className='image-text'>
-          <h1>Welcome to Alien's Bandit</h1>
+          <h1>Welcome to Alien Bandit's</h1>
           <a
             href='https://opensea.io/collection/alien-bandits'
             target='_blank'
             rel='noopener noreferrer'
           >
-            <button>Visit Opensea</button>
+            <button> Buy on Opensea</button>
           </a>
         </div>
         <div className='image-img'>
-          <img src={bandit5} alt='bandit' />
+          <img src={banditgif} alt='bandit' />
         </div>
       </div>
 
@@ -82,6 +85,10 @@ const Home = () => {
 
       <div className='welcome'>
         <Welcome />
+      </div>
+
+      <div className='map'>
+        <Map />
       </div>
 
       <div className='archive'>

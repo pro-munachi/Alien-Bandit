@@ -60,11 +60,16 @@
   color: black;
   width: 30%;
 }
-.buy-but button {
-  color: #c0262d;
+.buy-but a {
   background-color: black;
   border: none;
   width: 30%;
+  cursor: pointer;
+  text-decoration: none;
+  color: #c0262d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 889px) {
@@ -80,7 +85,7 @@
     width: 90%;
     margin: 10px auto;
   }
-  .buy-but button {
+  .buy-but a {
     width: 60%;
     margin: 10px auto;
     height: 70px;

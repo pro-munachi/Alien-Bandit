@@ -14,8 +14,11 @@ import bandit5 from '../../assets/images/E (5).png'
 import bandit6 from '../../assets/images/E (6).png'
 import bandit7 from '../../assets/images/E (7).png'
 import bandit8 from '../../assets/images/E (8).png'
-import './home.css'
+import { HomeStyle } from './style.js'
 import Footer from '../../components/footer/Footer'
+import NavBar from '../../components/drawer/Drawer'
+import Welcome from '../../components/welcome/Welcome'
+import Archive from '../../components/archive/Archive'
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
@@ -29,134 +32,62 @@ let teamData = [bandit5, bandit6, bandit7, bandit8]
 
 const Home = () => {
   return (
-    <Box>
-      <div className='home'></div>
-      <Box sx={{ width: '90%', margin: 'auto' }}>
-        <Box container sx={{ margin: '20px 0' }}>
-          <div className='home-first'>
-            <Box className='buygrid'>
-              <Typography variant='h4' sx={{ marginTop: 3 }}>
-                Welcome to the Alien Bandit club
-              </Typography>
-              <Typography>
-                BAYC is a collection of 10,000 Bored Ape NFTs—unique digital
-                collectibles living on the Ethereum blockchain. Your Bored Ape
-                doubles as your Yacht Club membership card, and grants access to
-                members-only benefits, the first of which is access to THE
-                BATHROOM, a collaborative graffiti board. Future areas and perks
-                can be unlocked by the community through roadmap activation.
-              </Typography>
-            </Box>
-            <Box
-              item
-              xs={6}
-              md={4}
-              sx={{ backgroundColor: 'black' }}
-              className='buygrid'
-            >
-              <>
-                <ImageList cols={2} className='imagelist'>
-                  {itemData.map((item) => (
-                    <ImageListItem key={item}>
-                      <img
-                        src={`${item}?w=164&h=164&fit=crop&auto=format`}
-                        srcSet={`${item}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-                        alt={'bandits'}
-                        loading='lazy'
-                        style={{ borderRadius: '10px' }}
-                      />
-                    </ImageListItem>
-                  ))}
-                </ImageList>
-              </>
-            </Box>
-          </div>
-          <div className='home-first1'>
-            <Box item xs={6} md={8} className='buygrid'>
-              <Item
-                sx={{
-                  backgroundColor: 'black',
-                  color: 'white',
-                  textAlign: 'left',
-                }}
-              >
-                <Typography
-                  variant='h4'
-                  sx={{ color: '#c0262d', fontStyle: 'italic' }}
-                >
-                  FAIR DISTRIBUTION
-                </Typography>
-                <Typography variant='h5'>
-                  (BONDING CURVES ARE A PONZI)
-                </Typography>
-                <Typography>
-                  There are no bonding curves here. Buying a Bored Ape costs
-                  0.08 ETH. There are no price tiers; BAYC membership costs the
-                  same for everyone.
-                </Typography>
-              </Item>
-            </Box>
-            <Box item xs={6} md={4} className='buygrid'>
-              <Item
-                sx={{
-                  backgroundColor: 'black',
-                  color: 'white',
-                  textAlign: 'left',
-                }}
-              >
-                <Typography>
-                  Note: Thirty apes are being withheld from the sale. These will
-                  be used for giveaways, puzzle rewards—and for the creators'
-                  BAYC memberships.
-                </Typography>
-              </Item>
-            </Box>
-          </div>
-        </Box>
-      </Box>
-
-      <Box sx={{ width: '90%', margin: 'auto' }}>
-        <div className='home-first'>
-          <Box className='buygrid'>
-            <Typography variant='h4' sx={{ marginTop: 3 }}>
-              THE TEAM{' '}
-            </Typography>
-            <Typography>
-              BAYC is a collection of 10,000 Bored Ape NFTs—unique digital
-              collectibles living on the Ethereum blockchain. Your Bored Ape
-              doubles as your Yacht Club membership card, and grants access to
-              members-only benefits, the first of which is access to THE
-              BATHROOM, a collaborative graffiti board. Future areas and perks
-              can be unlocked by the community through roadmap activation.
-            </Typography>
-          </Box>
-          <Box
-            item
-            xs={6}
-            md={4}
-            sx={{ backgroundColor: 'black' }}
-            className='buygrid'
+    <HomeStyle>
+      <NavBar />
+      <div className='image'>
+        <div className='image-text'>
+          <h1>Welcome to Alien's Bandit</h1>
+          <a
+            href='https://opensea.io/collection/alien-bandits'
+            target='_blank'
+            rel='noopener noreferrer'
           >
-            <>
-              <ImageList cols={2} className='imagelist'>
-                {teamData.map((item) => (
-                  <ImageListItem key={item}>
-                    <img
-                      src={`${item}?w=164&h=164&fit=crop&auto=format`}
-                      srcSet={`${item}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-                      alt={'bandits'}
-                      loading='lazy'
-                      style={{ borderRadius: '10px' }}
-                    />
-                  </ImageListItem>
-                ))}
-              </ImageList>
-            </>
-          </Box>
+            <button>Visit Opensea</button>
+          </a>
         </div>
-      </Box>
-      <Footer />
-    </Box>
+        <div className='image-img'>
+          <img src={bandit5} alt='bandit' />
+        </div>
+      </div>
+
+      <div className='second'>
+        <div className='second-top'>
+          <div className='top1'>
+            <img src={bandit2} alt='bandit' />
+          </div>
+          <div className='top2'>
+            <h2>10,000 Bandits</h2>
+            <p>
+              Alien Bandits is a collection of 10,000 bandits NFT ready to be
+              captured, they live on the polygon block chain. The bounty price
+              on each bandit increases as the activities on it and your
+              membership doubles with new features. Get exclusive access to our
+              ARCHIVE when you are a bandit holder (Marshall, Sheriff and
+              General Bar).
+            </p>
+          </div>
+        </div>
+        <div className='background' />
+
+        <div className='second-bottom'>
+          <div className='bottom1'>
+            <img src={bandit3} alt='bandit' />
+          </div>
+
+          <div className='bottom2'>
+            <img src={bandit4} alt='bandit' />
+          </div>
+        </div>
+      </div>
+
+      <div className='welcome'>
+        <Welcome />
+      </div>
+
+      <div className='archive'>
+        <Archive />
+      </div>
+    </HomeStyle>
   )
 }
 

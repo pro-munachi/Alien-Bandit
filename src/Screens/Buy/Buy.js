@@ -66,7 +66,14 @@ const Buy = () => {
             The initial sale has sold out. To get your Bored Ape, check out the
             collection on OpenSea.
           </p>
-          <button>BUY A BANDIT ON OPEN SEA</button>
+
+          <a
+            href='https://opensea.io/collection/alien-bandits'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            BUY A BANDIT ON OPEN SEA
+          </a>
         </Box>
       </Box>
       <Footer />

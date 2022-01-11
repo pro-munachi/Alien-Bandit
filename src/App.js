@@ -1,12 +1,18 @@
 import './App.css'
-import AppBar from './components/drawer/Drawer'
-import Page from './Page/Page'
+import NavBar from './components/drawer/Drawer'
+import { Routes, Route } from 'react-router-dom'
+import Buy from './Screens/Buy/Buy'
+import Home from './Screens/Home/Home'
+import RoadMap from './Screens/RoadMap/RoadMap'
 
 function App() {
   return (
     <div className='App'>
-      <AppBar />
-      <Page />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='buy' element={<Buy />} />
+        <Route path='map' element={<RoadMap />} />
+      </Routes>
     </div>
   )
 }

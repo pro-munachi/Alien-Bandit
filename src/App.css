@@ -1,4 +1,6 @@
 .App {
-  background-color: black;
+  background-color: #232323;
   color: white;
+  opacity: 0.9;
+  font-family: 'Lora', sans-serif;
 }

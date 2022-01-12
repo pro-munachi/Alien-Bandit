@@ -4,3 +4,8 @@
   opacity: 0.9;
   font-family: 'Lora', sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+  transition: all ease-in-out;
+}

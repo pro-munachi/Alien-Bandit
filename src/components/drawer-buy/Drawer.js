@@ -1,10 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { Link } from 'react-scroll'
 
 import { NavStyle } from './style'
 import Button from './Button'
 import logo from '../../assets/images/ALIEN1.png'
+import { HashLink } from 'react-router-hash-link'
 
 class NavBar extends React.Component {
   constructor() {
@@ -17,7 +17,6 @@ class NavBar extends React.Component {
       line1: '',
       line2: '1',
       line3: '',
-      transit: 0,
     }
   }
 
@@ -108,36 +107,26 @@ class NavBar extends React.Component {
             <NavLink to='/' className='single_item'>
               Home<span></span>
             </NavLink>
-            <Link
+            <HashLink
+              smooth
+              to='/#campaign'
               className='single_item'
-              to='campaign'
-              spy={true}
-              smooth={true}
-              hashSpy={true}
-              offset={50}
-              duration={500}
-              delay={500}
-              isDynamic={true}
-              ignoreCancelEvents={false}
-              spyThrottle={500}
+              scroll={(el) =>
+                el.scrollIntoView({ behavior: 'auto', block: 'end' })
+              }
             >
               Campaign map <span></span>
-            </Link>
-            <Link
+            </HashLink>
+            <HashLink
+              smooth
+              to='/#archive'
               className='single_item'
-              to='archive'
-              spy={true}
-              smooth={true}
-              hashSpy={true}
-              offset={50}
-              duration={500}
-              delay={500}
-              isDynamic={true}
-              ignoreCancelEvents={false}
-              spyThrottle={500}
+              scroll={(el) =>
+                el.scrollIntoView({ behavior: 'auto', block: 'end' })
+              }
             >
               Archive <span></span>
-            </Link>
+            </HashLink>
             <NavLink to='/buy' className='single_item'>
               Buy a bandit<span></span>
             </NavLink>
@@ -162,38 +151,28 @@ class NavBar extends React.Component {
             >
               Home
             </NavLink>
-            <Link
+
+            <HashLink
+              smooth
+              to='/#campaign'
               className='single_item'
-              to='campaign'
-              spy={true}
-              smooth={true}
-              hashSpy={true}
-              offset={50}
-              duration={500}
-              delay={500}
-              isDynamic={true}
-              ignoreCancelEvents={false}
-              spyThrottle={500}
-              onClick={this.onClickBackdrop}
+              scroll={(el) =>
+                el.scrollIntoView({ behavior: 'auto', block: 'end' })
+              }
             >
-              Campaign map
-            </Link>
-            <Link
+              Campaign map <span></span>
+            </HashLink>
+
+            <HashLink
+              smooth
+              to='/#archive'
               className='single_item'
-              to='archive'
-              spy={true}
-              smooth={true}
-              hashSpy={true}
-              offset={50}
-              duration={500}
-              delay={500}
-              isDynamic={true}
-              ignoreCancelEvents={false}
-              spyThrottle={500}
-              onClick={this.onClickBackdrop}
+              scroll={(el) =>
+                el.scrollIntoView({ behavior: 'auto', block: 'end' })
+              }
             >
-              Archive
-            </Link>
+              Archive <span></span>
+            </HashLink>
 
             <NavLink
               to='/buy'

@@ -6,6 +6,7 @@ export const HomeStyle = styled.div`
     align-items: center;
     width: 100%;
     background: black;
+    overflow: hidden;
 
     @media (max-width: 999px) {
       flex-direction: column;
@@ -213,5 +214,9 @@ export const HomeStyle = styled.div`
   .map {
     margin-top: 80px;
     width: 100%;
+  }
+
+  .footer {
+    background: black;
   }
 `

@@ -1,37 +1,15 @@
 import React from 'react'
-import { styled } from '@mui/material/styles'
-import Paper from '@mui/material/Paper'
-import Box from '@mui/material/Box'
-import { Typography } from '@mui/material'
-import ImageList from '@mui/material/ImageList'
-import ImageListItem from '@mui/material/ImageListItem'
 
-import bandit1 from '../../assets/images/E (1).png'
 import bandit2 from '../../assets/images/E (2).png'
 import bandit3 from '../../assets/images/E (3).png'
 import bandit4 from '../../assets/images/E (4).png'
-import bandit5 from '../../assets/images/E (5).png'
-import bandit6 from '../../assets/images/E (6).png'
-import bandit7 from '../../assets/images/E (7).png'
-import bandit8 from '../../assets/images/E (8).png'
 import { HomeStyle } from './style.js'
 import banditgif from '../../assets/images/aliengif.gif'
 import Footer from '../../components/footer/Footer'
 import NavBar from '../../components/drawer/Drawer'
 import Welcome from '../../components/welcome/Welcome'
 import Archive from '../../components/archive/Archive'
-import Sliders from '../../components/slider/Slider'
 import Map from '../../components/map/Map'
-
-const Item = styled(Paper)(({ theme }) => ({
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  textAlign: 'center',
-  color: theme.palette.text.secondary,
-}))
-
-let itemData = [bandit1, bandit2, bandit3, bandit4]
-let teamData = [bandit5, bandit6, bandit7, bandit8]
 
 const Home = () => {
   return (
@@ -87,12 +65,16 @@ const Home = () => {
         <Welcome />
       </div>
 
-      <div className='map'>
+      <div className='map' id='campaign'>
         <Map />
       </div>
 
-      <div className='archive'>
+      <div className='archive' id='archive'>
         <Archive />
+      </div>
+
+      <div className='footer'>
+        <Footer />
       </div>
     </HomeStyle>
   )

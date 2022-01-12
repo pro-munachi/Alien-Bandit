@@ -1,6 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { Link } from 'react-scroll'
+import {
+  Link,
+  // Button,
+  animateScroll as scroll,
+} from 'react-scroll'
 
 import { NavStyle } from './style'
 import Button from './Button'
@@ -116,7 +120,6 @@ class NavBar extends React.Component {
               hashSpy={true}
               offset={50}
               duration={500}
-              delay={500}
               isDynamic={true}
               ignoreCancelEvents={false}
               spyThrottle={500}
@@ -131,7 +134,6 @@ class NavBar extends React.Component {
               hashSpy={true}
               offset={50}
               duration={500}
-              delay={500}
               isDynamic={true}
               ignoreCancelEvents={false}
               spyThrottle={500}
@@ -170,7 +172,7 @@ class NavBar extends React.Component {
               hashSpy={true}
               offset={50}
               duration={500}
-              delay={500}
+              delay={100}
               isDynamic={true}
               ignoreCancelEvents={false}
               spyThrottle={500}
@@ -186,7 +188,7 @@ class NavBar extends React.Component {
               hashSpy={true}
               offset={50}
               duration={500}
-              delay={500}
+              delay={100}
               isDynamic={true}
               ignoreCancelEvents={false}
               spyThrottle={500}

@@ -101,7 +101,9 @@ class NavBar extends React.Component {
           className='container'
         >
           <div className='logo'>
-            <img src={logo} alt='Logo here' />
+            <NavLink to='/'>
+              <img src={logo} alt='Logo here' />
+            </NavLink>
           </div>
           <div className='nav_items'>
             <NavLink to='/' className='single_item'>
@@ -127,6 +129,10 @@ class NavBar extends React.Component {
             >
               Archive <span></span>
             </HashLink>
+
+            <NavLink to='/about' className='single_item'>
+              About<span></span>
+            </NavLink>
 
             <NavLink to='/buy' className='single_item'>
               Buy<span></span>
@@ -180,11 +186,27 @@ class NavBar extends React.Component {
             </HashLink>
 
             <NavLink
+              to='/about'
+              className='single_item'
+              onClick={this.onClickBackdrop}
+            >
+              About
+            </NavLink>
+
+            <NavLink
               to='/buy'
               className='single_item'
               onClick={this.onClickBackdrop}
             >
               Buy a bandit
+            </NavLink>
+
+            <NavLink
+              to='/hierachy'
+              className='single_item'
+              onClick={this.onClickBackdrop}
+            >
+              Hierachy
             </NavLink>
 
             <a

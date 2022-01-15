@@ -115,7 +115,34 @@ export const BuyStyle = styled.div`
     }
   }
 
+  .map-bottom {
+    width: 85%;
+    margin: auto;
+    background: black;
+    padding: 20px 27px;
+    div {
+      display: flex;
+
+      h3 {
+        width: 10%;
+        color: #c0262d;
+      }
+      p {
+        width: 90%;
+        span {
+          color: #c0262d;
+          margin-left: 5px;
+        }
+        a {
+          margin-left: 5px;
+          color: #c0262d;
+        }
+      }
+    }
+  }
+
   .footer {
     background: black;
+    margin-top: 60px;
   }
 `

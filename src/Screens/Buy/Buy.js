@@ -31,6 +31,49 @@ const Buy = () => {
         <Sliders />
       </div>
 
+      <div className='map-bottom'>
+        <h2>How to Purchase an Alien Bandit</h2>
+        <div>
+          <h3>01</h3>
+          <p>
+            Click on this Opensea
+            <a
+              href='https://opensea.io/collection/alien-bandits'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              link
+            </a>
+            .
+          </p>
+        </div>
+        <div>
+          <h3>02</h3>
+          <p>
+            Create an account with Opensea and connect your preferred wallet
+            (e.g. metamask).
+          </p>
+        </div>
+        <div>
+          <h3>03</h3>
+          <p>
+            Make sure your account is connected then click on the
+            <span>Buy Now</span> option.
+          </p>
+        </div>
+        <div>
+          <h3>04</h3>
+          <p>Complete and sign the smart contract to complete transaction.</p>
+        </div>
+        <div>
+          <h3>05</h3>
+          <p>
+            You can import collectible or NFT on your wallet to view the NFT if
+            you can’t find it.
+          </p>
+        </div>
+      </div>
+
       <div className='buy-but'>
         <h2>Buy a Bandit</h2>
         <p>

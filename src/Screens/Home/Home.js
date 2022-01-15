@@ -73,6 +73,50 @@ const Home = () => {
         <Archive />
       </div>
 
+      <div className='map-bottom'>
+        <h2> IMPORTANT TERMS TO NOTE</h2>
+        <div>
+          <h3>Marshall</h3>
+          <p>Holders of a single bandit .</p>
+        </div>
+        <div>
+          <h3>Marshall 2</h3>
+          <p>Holders of 5 bandits.</p>
+        </div>
+        <div>
+          <h3>Sheriff</h3>
+          <p>Holders of 10 and between 50 bandits.</p>
+        </div>
+        <div>
+          <h3>General Bar</h3>
+          <p> Holders of 50 or more Bandits .</p>
+        </div>
+        <div>
+          <h3>Station</h3>
+          <p>When you swap or resale.</p>
+        </div>
+        <div>
+          <h3>Bounty</h3>
+          <p>The price on the NFT.</p>
+        </div>
+        <div>
+          <h3>Corps </h3>
+          <p>General term for holders of a bandit.</p>
+        </div>
+        <div>
+          <h3>Corp</h3>
+          <p>Yet to release token.</p>
+        </div>
+        <div>
+          <h3>CMB </h3>
+          <p>Corp Members Board.</p>
+        </div>
+        <div>
+          <h3>Capture </h3>
+          <p>To buy an Alien Bandit.</p>
+        </div>
+      </div>
+
       <div className='footer'>
         <Footer />
       </div>

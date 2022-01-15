@@ -4,6 +4,37 @@ export const AboutStyle = styled.div`
   background-color: #232323;
   padding: 0;
 
+  .text {
+    width: 80%;
+    margin: 20px auto;
+    @media (max-width: 850px) {
+      width: 95%;
+    }
+
+    h2 {
+      font-size: 39px;
+      text-align: center;
+      margin: 20px 0;
+      color: #c0262d;
+      @media (max-width: 850px) {
+        font-size: 25px;
+      }
+    }
+
+    p {
+      font-size: 20px;
+      text-align: left;
+
+      @media (max-width: 850px) {
+        font-size: 16px;
+      }
+      span {
+        color: #c0262d;
+      }
+    }
+  }
+  }
+
   .h2 {
     font-size: 39px;
     text-align: center;

@@ -216,6 +216,44 @@ export const HomeStyle = styled.div`
     width: 100%;
   }
 
+  .map-bottom {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    @media (max-width: 850px) {
+      width: 95%;
+    }
+    h2 {
+      text-align: center;
+      font-size: 39px;
+      @media (max-width: 1000px) {
+        font-size: 29px;
+        text-align: center;
+      }
+    }
+    div {
+      display: flex;
+
+      h3 {
+        width: 20%;
+        color: #c0262d;
+      }
+      p {
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 15px;
+        span {
+          color: #c0262d;
+          margin-left: 5px;
+        }
+        a {
+          margin-left: 5px;
+          color: #c0262d;
+        }
+      }
+    }
+  }
+
   .footer {
     background: black;
   }

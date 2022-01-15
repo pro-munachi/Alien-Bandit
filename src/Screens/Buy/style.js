@@ -115,27 +115,36 @@ export const BuyStyle = styled.div`
     }
   }
 
-  .map-bottom {
-    width: 85%;
-    margin: auto;
+  .how {
     background: black;
-    padding: 20px 27px;
-    div {
-      display: flex;
+    width: 100%;
 
-      h3 {
-        width: 10%;
-        color: #c0262d;
+    .map-bottom {
+      width: 90%;
+      margin: auto;
+      background: black;
+      padding: 20px 0;
+
+      h2 {
+        text-align: center;
       }
-      p {
-        width: 90%;
-        span {
+      div {
+        display: flex;
+
+        h3 {
+          width: 10%;
           color: #c0262d;
-          margin-left: 5px;
         }
-        a {
-          margin-left: 5px;
-          color: #c0262d;
+        p {
+          width: 90%;
+          span {
+            color: #c0262d;
+            margin-left: 5px;
+          }
+          a {
+            margin-left: 5px;
+            color: #c0262d;
+          }
         }
       }
     }

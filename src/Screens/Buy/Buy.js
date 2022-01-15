@@ -13,7 +13,7 @@ const Buy = () => {
 
       <div className='image'>
         <div className='image-text'>
-          <h1>Welcome to Alien Bandit's</h1>
+          <h1>This is the Alien Bandit's</h1>
           <a
             href='https://opensea.io/collection/alien-bandits'
             target='_blank'

@@ -3,7 +3,7 @@ import TwitterIcon from '@mui/icons-material/Twitter'
 import TelegramIcon from '@mui/icons-material/Telegram'
 import InstagramIcon from '@mui/icons-material/Instagram'
 
-import Logo from '../../assets/images/ALIEN2.png'
+import Logo from '../../assets/images/vert.png'
 import { FooterStyle } from './style.js'
 
 const Footer = () => {

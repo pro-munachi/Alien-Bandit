@@ -12,19 +12,20 @@ export const FooterStyle = styled.footer`
     margin: 30px 0;
     border-bottom: 1px solid white;
     padding-bottom: 15px;
+    align-items: center;
     @media (max-width: 650px) {
       flex-direction: column;
     }
     img {
-      width: 300px;
-      height: 50px;
+      height: 200px;
+      width: 200px;
       @media (max-width: 650px) {
         margin: auto;
       }
     }
     .footer-bottom {
       display: flex;
-      margin: 0 40px;
+      margin: 0px 40px 29px 40px;
       .footer-icons {
         margin: 15px 20px 0 20px;
         a {

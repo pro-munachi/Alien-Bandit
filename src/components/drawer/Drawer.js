@@ -8,7 +8,7 @@ import {
 
 import { NavStyle } from './style'
 import Button from './Button'
-import logo from '../../assets/images/ALIEN1.png'
+import logo from '../../assets/images/hori.png'
 
 class NavBar extends React.Component {
   constructor() {
@@ -141,7 +141,11 @@ class NavBar extends React.Component {
               Archive <span></span>
             </Link>
             <NavLink to='/buy' className='single_item'>
-              Buy a bandit<span></span>
+              Buy<span></span>
+            </NavLink>
+
+            <NavLink to='/hierachy' className='single_item'>
+              Hierachy<span></span>
             </NavLink>
 
             <a

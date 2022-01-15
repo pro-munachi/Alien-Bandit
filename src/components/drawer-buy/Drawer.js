@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 import { NavStyle } from './style'
 import Button from './Button'
-import logo from '../../assets/images/ALIEN1.png'
+import logo from '../../assets/images/hori.png'
 import { HashLink } from 'react-router-hash-link'
 
 class NavBar extends React.Component {
@@ -127,8 +127,13 @@ class NavBar extends React.Component {
             >
               Archive <span></span>
             </HashLink>
+
             <NavLink to='/buy' className='single_item'>
-              Buy a bandit<span></span>
+              Buy<span></span>
+            </NavLink>
+
+            <NavLink to='/hierachy' className='single_item'>
+              Hierachy<span></span>
             </NavLink>
 
             <a

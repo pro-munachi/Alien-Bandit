@@ -30,7 +30,10 @@ const Footer = () => {
           </div>
 
           <div className='footer-icons'>
-            <a href='/' className='footer-link'>
+            <a
+              href='https://instagram.com/alienbandits?utm_medium=copy_link'
+              className='footer-link'
+            >
               <InstagramIcon />
             </a>
           </div>

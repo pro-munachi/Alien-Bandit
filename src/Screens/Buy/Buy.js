@@ -79,8 +79,8 @@ const Buy = () => {
       <div className='buy-but'>
         <h2>Buy a Bandit</h2>
         <p>
-          The initial sale has sold out. To get your Alien Bandit, check out the
-          collection on OpenSea.
+          The initial sale will start on Feb 1st. To get your Alien Bandit,
+          check out the collection on OpenSea.
         </p>
 
         <a

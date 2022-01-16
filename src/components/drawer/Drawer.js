@@ -108,7 +108,7 @@ class NavBar extends React.Component {
           <div className='logo'>
             <NavLink to='/'>
               <img src={logo} alt='Logo here' />
-            </NavLink>{' '}
+            </NavLink>
           </div>
           <div className='nav_items'>
             <NavLink to='/' className='single_item'>
@@ -156,7 +156,7 @@ class NavBar extends React.Component {
             </NavLink>
 
             <a
-              href='https://t.me/+4ICOg08hzMQwZTdk'
+              href='https://discord.gg/JHMnQry8vz'
               target='_blank'
               rel='noopener noreferrer'
               className='discord'
@@ -233,7 +233,7 @@ class NavBar extends React.Component {
             </NavLink>
 
             <a
-              href='https://t.me/+4ICOg08hzMQwZTdk'
+              href='https://discord.gg/JHMnQry8vz'
               target='_blank'
               rel='noopener noreferrer'
               className='discord'

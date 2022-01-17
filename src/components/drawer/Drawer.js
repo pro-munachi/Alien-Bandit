@@ -143,8 +143,8 @@ class NavBar extends React.Component {
               Archive <span></span>
             </Link>
 
-            <NavLink to='/about' className='single_item'>
-              About<span></span>
+            <NavLink to='/faq' className='single_item'>
+              FAQ<span></span>
             </NavLink>
 
             <NavLink to='/buy' className='single_item'>
@@ -209,11 +209,11 @@ class NavBar extends React.Component {
             </Link>
 
             <NavLink
-              to='/about'
+              to='/faq'
               className='single_item'
               onClick={this.onClickBackdrop}
             >
-              About
+              FAQ
             </NavLink>
 
             <NavLink

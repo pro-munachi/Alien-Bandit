@@ -12,7 +12,7 @@ function App() {
       <ScrollToTop>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
+          <Route path='/faq' element={<About />} />
           <Route path='buy' element={<Buy />} />
           <Route path='hierachy' element={<Hierachy />} />
         </Routes>

@@ -35,4 +35,7 @@ export const MapStyle = styled.div`
       }
     }
   }
+
+  .map-bottom1 {
+  }
 `

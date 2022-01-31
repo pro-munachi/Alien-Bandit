@@ -1,10 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import {
-  Link,
-  // Button,
-  animateScroll as scroll,
-} from 'react-scroll'
+import { Link } from 'react-scroll'
 
 import { NavStyle } from './style'
 import Button from './Button'
@@ -152,7 +148,7 @@ class NavBar extends React.Component {
             </NavLink>
 
             <NavLink to='/hierachy' className='single_item'>
-              Hierachy<span></span>
+              Bands & Hierachy<span></span>
             </NavLink>
 
             <a
@@ -229,7 +225,7 @@ class NavBar extends React.Component {
               className='single_item'
               onClick={this.onClickBackdrop}
             >
-              Hierachy
+              Bands & Hierachy{' '}
             </NavLink>
 
             <a

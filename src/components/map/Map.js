@@ -35,7 +35,7 @@ const Map = () => {
           <h3>03</h3>
           <p>
             Alien bandits launch its YouTube channel and send gift items to
-            corps member including our iconic suit clothing
+            corps member including our iconic suit clothing.
           </p>
         </div>
         <div>
@@ -71,6 +71,37 @@ const Map = () => {
             Secure our partnership program with our clothing line to release our
             iconic suit and other gears. Only accessible to corps member.
           </p>
+        </div>
+      </div>
+
+      <div className='map-top'>
+        <h2>Utility</h2>
+      </div>
+
+      <div className='map-bottom'>
+        <div>
+          <h3>01</h3>
+          <p>Access to our Archive</p>
+        </div>
+        <div>
+          <h3>02</h3>
+          <p>Initiation in our Corp Members Board</p>
+        </div>
+        <div>
+          <h3>03</h3>
+          <p>Access to our upcoming projects</p>
+        </div>
+        <div>
+          <h3>04</h3>
+          <p>Access to our yet to launch token</p>
+        </div>
+        <div>
+          <h3>05</h3>
+          <p>Access to exclusive Whitelist Nfts</p>
+        </div>
+        <div>
+          <h3>06</h3>
+          <p>Access to our raffle draws in the lab</p>
         </div>
       </div>
     </MapStyle>

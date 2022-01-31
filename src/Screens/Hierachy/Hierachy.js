@@ -1,4 +1,5 @@
 import React from 'react'
+import { Carousel } from 'react-responsive-carousel'
 
 import NavBar from '../../components/drawer-buy/Drawer'
 import { HierachyStyle } from './style'
@@ -13,6 +14,21 @@ import shadows from '../../assets/images/shadows.png'
 import vraals from '../../assets/images/vraals.png'
 import deforms from '../../assets/images/deforms.png'
 import Footer from '../../components/footer/Footer'
+
+// bands
+import hunter from '../../assets/images/9192.png'
+import grisha from '../../assets/images/1092.png'
+import shadow from '../../assets/images/186.png'
+import luna from '../../assets/images/35.png'
+import pope from '../../assets/images/818.png'
+import overlord from '../../assets/images/3536.png'
+import bane from '../../assets/images/33.png'
+import erebus from '../../assets/images/9872.png'
+import nebula from '../../assets/images/713.png'
+import chuck from '../../assets/images/165.png'
+import ojay from '../../assets/images/2720.png'
+import kingsman from '../../assets/images/3539.png'
+import duke from '../../assets/images/7132.png'
 
 const items = [
   {
@@ -65,6 +81,61 @@ const items = [
   },
 ]
 
+const bandits = [
+  {
+    img: hunter,
+    name: 'Hunter-Creator-#9192',
+  },
+  {
+    img: grisha,
+    name: 'Grisha-Web developer-#1092',
+  },
+  {
+    img: shadow,
+    name: 'Shadow-Graphics Designer-#186',
+  },
+  {
+    img: luna,
+    name: 'Luna-EXP-#35',
+  },
+  {
+    img: pope,
+    name: 'Pope-Discord-#818',
+  },
+  {
+    img: overlord,
+    name: 'De Overlord-Instagram-#3536',
+  },
+  {
+    img: bane,
+    name: 'Bane-Telegram-#33',
+  },
+  {
+    img: erebus,
+    name: 'Erebus-Twitter-#9872',
+  },
+  {
+    img: nebula,
+    name: 'Nebula-CPM-#713',
+  },
+  {
+    img: chuck,
+    name: 'Chuck-ADM-#165',
+  },
+  {
+    img: ojay,
+    name: 'OJay-BMB-#2720',
+  },
+  {
+    img: kingsman,
+    name: 'Kingsman-WA-#3539',
+  },
+  {
+    img: duke,
+    name: 'Duke-BIIH-#7132',
+  },
+]
+
 const Hierachy = () => {
   return (
     <HierachyStyle>
@@ -84,6 +155,19 @@ const Hierachy = () => {
         <div className='image-img'>
           <img src={banditgif} alt='bandit' />
         </div>
+      </div>
+
+      <h2 className='bands'>Band Members</h2>
+
+      <div className='slider'>
+        <Carousel>
+          {bandits.map((item) => (
+            <div key={item.name}>
+              <img src={item.img} className='pic' alt={item.name} />
+              <p className='legend'>{item.name}</p>
+            </div>
+          ))}
+        </Carousel>
       </div>
 
       <div className='top'>

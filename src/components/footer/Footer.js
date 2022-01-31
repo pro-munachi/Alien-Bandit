@@ -16,6 +16,8 @@ const Footer = () => {
         <div className='footer-bottom'>
           <div className='footer-icons'>
             <a
+              target='_blank'
+              rel='noopener noreferrer'
               href='https://twitter.com/alien_bandits?t=JGmN1nU84m2TYJ8N4cSfaA&s=08'
               className='footer-link'
             >
@@ -24,7 +26,12 @@ const Footer = () => {
           </div>
 
           <div className='footer-icons'>
-            <a href='https://t.me/+4ICOg08hzMQwZTdk' className='footer-link'>
+            <a
+              href='https://t.me/+4ICOg08hzMQwZTdk'
+              className='footer-link'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <TelegramIcon />
             </a>
           </div>
@@ -33,6 +40,8 @@ const Footer = () => {
             <a
               href='https://instagram.com/alienbandits?utm_medium=copy_link'
               className='footer-link'
+              target='_blank'
+              rel='noopener noreferrer'
             >
               <InstagramIcon />
             </a>

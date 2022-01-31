@@ -4,6 +4,21 @@ export const HierachyStyle = styled.div`
   background-color: #232323;
   padding: 0;
 
+  .slider {
+    width: 500px;
+    margin: auto;
+    @media (max-width: 650px) {
+      width: 100%;
+    }
+  }
+
+  .bands {
+    font-size: 39px;
+    text-align: center;
+    margin: 60px 0;
+    color: #c0262d;
+  }
+
   .h2 {
     font-size: 39px;
     text-align: center;

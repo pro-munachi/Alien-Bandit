@@ -139,7 +139,7 @@ class NavBar extends React.Component {
             </NavLink>
 
             <NavLink to='/hierachy' className='single_item'>
-              Hierachy<span></span>
+              Bands & Hierachy<span></span>
             </NavLink>
 
             <a
@@ -206,7 +206,7 @@ class NavBar extends React.Component {
               className='single_item'
               onClick={this.onClickBackdrop}
             >
-              Hierachy
+              Bands & Hierachy
             </NavLink>
 
             <a

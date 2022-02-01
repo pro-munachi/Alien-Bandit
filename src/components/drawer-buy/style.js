@@ -163,7 +163,7 @@ export const NavStyle = styled.div`
 
 export const ButtonStyle = styled.div`
   position: fixed;
-  top: 20px;
+  top: 11px;
   right: 30px;
   width: 35px;
   display: none;

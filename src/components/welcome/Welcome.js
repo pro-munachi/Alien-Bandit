@@ -38,7 +38,7 @@ const Welcome = () => {
           <p>
             The prices for each bandit are equal with exception to our super
             rare Nfts such as Prime and the upper divisions. Prime the leader of
-            the revolution and the conqueror different CRYPTOVERSE. The Alien
+            the revolution and the conqueror of different CRYPTOVERSE. The Alien
             Bandits NFT cost 0.004Eth as our starting floor price and would
             definitely increase as we go about our activities and strictly
             adhering to our CAMPAIGN MAP. A thousand Alien Bandits have been

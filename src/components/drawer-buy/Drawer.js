@@ -143,7 +143,7 @@ class NavBar extends React.Component {
             </NavLink>
 
             <a
-              href='https://discord.gg/JHMnQry8vz'
+              href='https://discord.gg/fJg5zdr3r6'
               target='_blank'
               rel='noopener noreferrer'
               className='discord'
@@ -210,7 +210,7 @@ class NavBar extends React.Component {
             </NavLink>
 
             <a
-              href='https://discord.gg/JHMnQry8vz'
+              href='https://discord.gg/fJg5zdr3r6'
               target='_blank'
               rel='noopener noreferrer'
               className='discord'

@@ -85,7 +85,7 @@ const Map = () => {
         </div>
         <div>
           <h3>02</h3>
-          <p>Initiation in our Corp Members Board</p>
+          <p>Initiation into our Corp Members Board</p>
         </div>
         <div>
           <h3>03</h3>

@@ -76,22 +76,6 @@ const Home = () => {
       <div className='map-bottom'>
         <h2> IMPORTANT TERMS TO NOTE</h2>
         <div>
-          <h3>Marshall</h3>
-          <p>Holders of a single bandit .</p>
-        </div>
-        <div>
-          <h3>Marshall 2</h3>
-          <p>Holders of 5 bandits.</p>
-        </div>
-        <div>
-          <h3>Sheriff</h3>
-          <p>Holders of 10 and between 50 bandits.</p>
-        </div>
-        <div>
-          <h3>General Bar</h3>
-          <p> Holders of 50 or more Bandits .</p>
-        </div>
-        <div>
           <h3>Station</h3>
           <p>When you swap or resale.</p>
         </div>
@@ -114,6 +98,54 @@ const Home = () => {
         <div>
           <h3>Capture </h3>
           <p>To buy an Alien Bandit.</p>
+        </div>
+      </div>
+
+      <div className='map-bottom'>
+        <h2> Holder's Rank</h2>
+        <div>
+          <h3>Kadet</h3>
+          <p>Holder of 1 Bandit.</p>
+        </div>
+        <div>
+          <h3>Marshall</h3>
+          <p>Holder of 2-5 Bandits.</p>
+        </div>
+        <div>
+          <h3>Lord </h3>
+          <p>Holder of 6-10 Bandits.</p>
+        </div>
+        <div>
+          <h3>Sherriff</h3>
+          <p>Holder of 11-20 Bandits.</p>
+        </div>
+        <div>
+          <h3>Commander </h3>
+          <p>Holder of 21-30 Bandits.</p>
+        </div>
+        <div>
+          <h3>Deputy </h3>
+          <p>Holder of 31-40 Bandits.</p>
+        </div>
+        <div>
+          <h3>Double Star </h3>
+          <p>Holder of 41-50 Bandits.</p>
+        </div>
+        <div>
+          <h3>Mayor </h3>
+          <p>Holder of 51-60 Bandits.</p>
+        </div>
+        <div>
+          <h3>Ledger </h3>
+          <p>Holder of 61-70 Bandits.</p>
+        </div>
+        <div>
+          <h3>Chief </h3>
+          <p>Holder of 71-80 Bandits.</p>
+        </div>
+        <div>
+          <h3>General Bar Chief </h3>
+          <p>Holder of 81+ Bandits.</p>
         </div>
       </div>
 

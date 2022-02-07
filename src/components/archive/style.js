@@ -6,8 +6,12 @@ export const ArchiveStyle = styled.div`
     margin: auto;
   }
   h2 {
-    font-size: 38px;
+    font-size: 39px;
     text-align: center;
+    @media (max-width: 1000px) {
+      font-size: 29px;
+      text-align: center;
+    }
   }
   div {
     display: flex;

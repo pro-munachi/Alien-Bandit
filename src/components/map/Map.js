@@ -104,6 +104,30 @@ const Map = () => {
           <p>Access to our raffle draws in the lab</p>
         </div>
       </div>
+
+      <div className='map-top'>
+        <h2>Navigator</h2>
+        <p style={{ textAlign: 'center' }}>
+          This will help Locate rare Bandit's that are really hard to find.
+        </p>
+      </div>
+
+      <div className='map-top'>
+        <h2>Lab</h2>
+        <p style={{ textAlign: 'center' }}>
+          Since they are all Clones of the Prime, the lab can be used to
+          generate Bandit's and modify to be rarer than others. Introducing Rare
+          Traits, that be added and listed.
+        </p>
+      </div>
+
+      <div className='map-top'>
+        <h2>Alienverse</h2>
+        <p style={{ textAlign: 'center' }}>
+          So we are basically Creating our own Verse..To accommodate all our
+          changes and creations.
+        </p>
+      </div>
     </MapStyle>
   )
 }

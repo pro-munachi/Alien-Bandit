@@ -12,8 +12,12 @@ export const MapStyle = styled.div`
   .map-top {
     margin: 20px 0;
     h2 {
-      font-size: 38px;
+      font-size: 39px;
       text-align: center;
+      @media (max-width: 1000px) {
+        font-size: 29px;
+        text-align: center;
+      }
     }
     p {
       @media (max-width: 850px) {

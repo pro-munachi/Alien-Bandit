@@ -120,7 +120,7 @@ const bandits = [
   },
   {
     img: chuck,
-    name: 'Chuck-ADM-#165',
+    name: 'Argent-ADM-#165',
   },
   {
     img: ojay,

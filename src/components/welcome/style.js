@@ -19,8 +19,12 @@ export const WelcomeStyle = styled.div`
         width: 100%;
       }
       h2 {
-        font-size: 38px;
+        font-size: 39px;
         text-align: center;
+        @media (max-width: 1000px) {
+          font-size: 29px;
+          text-align: center;
+        }
       }
       p {
         font-size: 19px;

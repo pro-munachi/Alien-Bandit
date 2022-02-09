@@ -17,7 +17,7 @@ const Home = () => {
       <NavBar />
       <div className='image'>
         <div className='image-text'>
-          <h1>This is the Alien Bandit's</h1>
+          <h1>This is the Alien Bandits</h1>
           <a
             href='https://opensea.io/collection/alien-bandits'
             target='_blank'
@@ -42,9 +42,15 @@ const Home = () => {
               Alien Bandits is a collection of 10,000 bandits NFT ready to be
               captured, they live on the polygon block chain. The bounty price
               on each bandit increases as the activities on it and your
-              membership doubles with new features. Get exclusive access to our
-              ARCHIVE when you are a bandit holder (Marshall, Sheriff and
-              General Bar).
+              membership doubles with new features. Get exclusive access to our{' '}
+              <span style={{ color: '#c0262d' }}>ARCHIVE</span> when you are a
+              bandit holder.
+            </p>
+            <p>
+              The prices for each bandit are equal with exception to our super
+              rare NFTs such as the Prime and the upper divisions. Prime being
+              the leader of the revolution and conqueror of different{' '}
+              <span style={{ color: '#c0262d' }}> ALIEN VERSE</span>.
             </p>
           </div>
         </div>
@@ -94,6 +100,10 @@ const Home = () => {
         <div>
           <h3>CMB </h3>
           <p>Corp Members Board.</p>
+        </div>
+        <div>
+          <h3>Navigator </h3>
+          <p>Locate Deform Bandits.</p>
         </div>
         <div>
           <h3>Capture </h3>

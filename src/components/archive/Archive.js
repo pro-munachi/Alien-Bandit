@@ -16,9 +16,9 @@ const Archive = () => {
           will be in operation once we attain 50% Sales of traded Ethereum. Get
           a chance to get treasures and rewards in the archive with rare items,
           weapon, coins when you win a chest in the archive.The Archives is all
-          about winning raffles, Ranging from rare Bandit's, Corp, Artillery,
+          about winning raffles, Ranging from Deform Bandit's, Corp, Artillery,
           Navigator and so much more. Archive will be Accessible to High Rank
-          officials
+          officials.
         </p>
         <img src={door} alt='door' />
       </div>

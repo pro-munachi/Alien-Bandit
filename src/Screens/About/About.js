@@ -12,7 +12,7 @@ const About = () => {
 
       <div className='image'>
         <div className='image-text'>
-          <h1>This is the Alien Bandit's</h1>
+          <h1>This is the Alien Bandits</h1>
           <a
             href='https://opensea.io/collection/alien-bandits'
             target='_blank'
@@ -29,6 +29,17 @@ const About = () => {
       <div style={{ padding: '80px 0' }}>
         <div className='text'>
           <h2>What’s an NFT?</h2>
+
+          <p>
+            A non-fungible token is a unique and non-interchangeable unit of
+            data stored on a blockchain, a form of digital ledger. NFTs can be
+            associated with reproducible digital files such as photos, videos,
+            and audio.
+          </p>
+        </div>
+
+        <div className='text'>
+          <h2>About Alien Bandit</h2>
 
           <p>
             Alien Bandits is a collection of 10,000 bandits NFT ready to be

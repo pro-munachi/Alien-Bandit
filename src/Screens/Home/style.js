@@ -221,7 +221,7 @@ export const HomeStyle = styled.div`
     margin: auto;
     padding: 20px 0;
     @media (max-width: 850px) {
-      width: 95%;
+      width: 85%;
     }
     h2 {
       text-align: center;
@@ -241,7 +241,10 @@ export const HomeStyle = styled.div`
       p {
         width: 80%;
         margin-top: 20px;
-        margin-left: 15px;
+        margin-left: 25px;
+        @media (max-width: 700px) {
+          margin-left: 45px;
+        }
         span {
           color: #c0262d;
           margin-left: 5px;

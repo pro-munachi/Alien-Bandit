@@ -81,27 +81,63 @@ const Map = () => {
       <div className='map-bottom'>
         <div>
           <h3>01</h3>
-          <p>Access to our Archive</p>
+          <p>Access to our Archive.</p>
         </div>
         <div>
           <h3>02</h3>
-          <p>Initiation into our Corp Members Board</p>
+          <p>Initiation into our Corp Members Board.</p>
         </div>
         <div>
           <h3>03</h3>
-          <p>Access to our upcoming projects</p>
+          <p>Access to our upcoming projects.</p>
         </div>
         <div>
           <h3>04</h3>
-          <p>Access to our yet to launch token</p>
+          <p>Access to our yet to launch token.</p>
         </div>
         <div>
           <h3>05</h3>
-          <p>Access to exclusive Whitelist Nfts</p>
+          <p>Access to exclusive Whitelist Nfts.</p>
         </div>
         <div>
           <h3>06</h3>
-          <p>Access to our raffle draws in the lab</p>
+          <p>Access to our raffle draws in the lab.</p>
+        </div>
+        <div>
+          <h3>07</h3>
+          <p>Access to the ALIEN VERSE.</p>
+        </div>
+      </div>
+
+      <div className='map-top'>
+        <h2>Benefits</h2>
+      </div>
+
+      <div className='map-bottom'>
+        <div>
+          <h3>01</h3>
+          <p>
+            Once you step up in rank, you get a free bandit sent to your wallet,
+            this only available to Lords and the above ranks.
+          </p>
+        </div>
+        <div>
+          <h3>02</h3>
+          <p>
+            Commanders and the high rank officials will gain access into the
+            Archive.
+          </p>
+        </div>
+        <div>
+          <h3>03</h3>
+          <p>High rank officials get reward with the Navigator Tool.</p>
+        </div>
+        <div>
+          <h3>04</h3>
+          <p>
+            Corp Member get to customize their own character in the ALIEN VERSE
+            SPACE.
+          </p>
         </div>
       </div>
 
